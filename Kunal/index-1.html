@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Kunal! 🎉</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background: linear-gradient(to bottom right, #40cbdd, #fad0c4);
+            color: #fff;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-top: 20px;
+            animation: glow 2s infinite alternate;
+        }
+        @keyframes glow {
+            0% {
+                text-shadow: 0 0 5px #fff, 0 0 10px #ff69b4, 0 0 20px #ff69b4;
+            }
+            100% {
+                text-shadow: 0 0 10px #fff, 0 0 20px #ff69b4, 0 0 30px #ff69b4;
+            }
+        }
+        p {
+            font-size: 1.5rem;
+            margin: 20px;
+        }
+        .cake {
+            font-size: 5rem;
+            margin-top: 30px;
+            animation: bounce 1s infinite alternate;
+        }
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-10px);
+            }
+        }
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 40px auto;
+            flex-wrap: wrap;
+        }
+        .image-gallery img {
+            width: 300px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        .confetti {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+        .confetti div {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 50%;
+            animation: fall 5s linear infinite;
+        }
+        @keyframes fall {
+            0% {
+                transform: translateY(-100%);
+            }
+            100% {
+                transform: translateY(100vh);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>🎂 Happy Birthday Kunal! 🎉</h1>
+    <p>Wishing you a day filled with love, laughter, and amazing memories! 🎁✨</p>
+    <div class="cake">🎂</div>
+    
+    <!-- Image Gallery -->
+    <div class="image-gallery">
+        <img src="/Kunal1.jpeg" alt="Birthday Image 1">
+        <img src="/Kunalj.jpeg" alt="Birthday Image 2">
+        <img src="/Kunalk.jpeg" alt="Birthday Image 3">
+    </div>
+    
+    <div class="confetti">
+        <!-- Confetti Effects -->
+        <div style="left: 10%; animation-delay: 0s;"></div>
+        <div style="left: 20%; animation-delay: 1s;"></div>
+        <div style="left: 30%; animation-delay: 2s;"></div>
+        <div style="left: 40%; animation-delay: 0.5s;"></div>
+        <div style="left: 50%; animation-delay: 1.5s;"></div>
+        <div style="left: 60%; animation-delay: 0.8s;"></div>
+        <div style="left: 70%; animation-delay: 1.2s;"></div>
+        <div style="left: 80%; animation-delay: 2.5s;"></div>
+        <div style="left: 90%; animation-delay: 3s;"></div>
+    </div>
+</body>
+</html>
